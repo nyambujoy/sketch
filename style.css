@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar .container{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-height: 100px;
+}
+
+.navbar ul{
+    display:flex;
+    gap: 30px;
+    padding: 20px;  
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navbar a{
+    text-decoration:dotted;
+    font-size: 18px;
+    color: blue;
+}
+
+.navbar  a:hover{
+    color: purple;
+}
+
+.logo{
+    padding-right:  200px;
+    padding-bottom: 20;
+    padding-top: 0;
+    color: orangered;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+img{
+    max-width: 75%;
+}
+
+
+.section .container{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+p{
+    margin: 30px;
+}
