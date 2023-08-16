@@ -33,26 +33,42 @@ ul{
 }
 
 .logo{
-    padding-right:  200px;
+    padding-right:  300px;
     padding-bottom: 20;
     padding-top: 0;
     color: orangered;
     font-size: xx-large;
     font-weight: bolder;
     font-style: oblique;
+    text-shadow: 2px 2px 4px;
+    text-align: center;
 }
 
 img{
-    max-width: 75%;
+    max-width: 50%;
+    max-height: 50%;
 }
 
 
 .section .container{
     display: flex;
     justify-content: space-between;
-    gap: 200px;
+    gap: 20px;
+    height: 100vh;
+    padding: 30px;
 }
 
 p{
     margin: 30px;
+    font-size: large;
+}
+
+.section .item{
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    flex:1
+    
+
+    
 }
